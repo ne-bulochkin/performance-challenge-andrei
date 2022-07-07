@@ -2,18 +2,18 @@
 
 ## Introduction
 
-Pleo uses a microservice architecture, in which the whole system architecture is divided into smaller systems to provide granular functionality. One of these subsystems is the “Finance Service” whose business goal is to provide wallet information and be able to make payments.  Currently, this service exposes a REST interface with two endpoints:
+Pleo uses a microservice architecture, in which the whole system architecture is divided into smaller systems to provide granular functionality. One of these subsystems is the “Finance Service” whose business goal is to provide wallet information and be able to make payments. Currently, this service exposes a REST interface with two endpoints:
 
-- Fetch payments feedback with the wallet balance from the user. Each payment describes the amount payed and to which provider
+- Fetch payments feed with the wallet balance from the user. Each payment describes the amount paid and to which provider
 - Create a new payment
 
-As you can see there is only one instance running the “Finance Service”, which is exposed directly to the internet. On the storage layer is a SQL-like database that contains two tables. One table tracks the wallet payments and the other contains user provider information.
+As you can see there is only one instance of the “Finance Service” running, which is exposed directly to the internet. On the storage layer, there is an SQL-like database that contains two tables. One table tracks the wallet payments and the other contains provider information.
 
 ![architecture.svg](architecture.svg)
 
 ([source](https://excalidraw.com/#json=YcUhmaK-Wvvf65YXUWmGQ,Sy_wMyZIZlFZjSf2ocImAQ))
 
-### Feed response example
+### Payment feed response example
 
 ```jsx
 {
@@ -38,7 +38,7 @@ As you can see there is only one instance running the “Finance Service”, whi
 
 ## Tasks
 
-You have been tasked to scale Pleo from a tiny service with a few users to be able to serve thousands of customers concurrently. 
+You have been tasked to scale Pleo from a tiny service with a few users to a system that should be able to serve thousands of customers concurrently. 
 
 The goal of this challenge is to describe **what changes would you do to the system to support exponential growth** and **how will you make sure the system works as expected with those changes**. The task is intentionally vague but there are some things to have in mind:
 
@@ -49,6 +49,6 @@ The goal of this challenge is to describe **what changes would you do to the sys
 
 ## How to submit the solution
 
-You can share it with a having a document based on [Pleo Flow design doc template](Template-Design-Doc.md) or in the format of your choice. 
+You can share it in a document based on [Pleo Design Doc template](Template-Design-Doc.md) or in the format of your choice. 
 
-We recommend having an iterative approach, and on each scaling phase, describe the steps taken to scale the system, how to load test it, what assumptions were taken, and a link or an image to a design tool that describes the solution. Each of these steps can be a new commit so we can see the design process.
+We recommend you to follow an iterative approach, and on each scaling phase, describe the steps taken to scale the system, how to load test it, what assumptions were taken, and a link or an image to a design tool that describes the solution. Each of these steps can be a new commit so we can see the design process.
