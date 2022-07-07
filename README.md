@@ -49,6 +49,6 @@ The goal of this challenge is to describe **what changes would you do to the sys
 
 ## How to submit the solution
 
-You can share it in a document based on [Pleo Design Doc template](Template-Design-Doc.md) or in the format of your choice. 
+You can share it in a document based on the [Pleo Design Doc template](Template-Design-Doc.md) or in the format of your choice. 
 
 We recommend you to follow an iterative approach, and on each scaling phase, describe the steps taken to scale the system, how to load test it, what assumptions were taken, and a link or an image to a design tool that describes the solution. Each of these steps can be a new commit so we can see the design process.
