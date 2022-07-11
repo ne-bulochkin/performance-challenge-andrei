@@ -49,6 +49,6 @@ The goal of this challenge is to describe **what changes would you do to the sys
 
 ## How to submit the solution
 
-You can share it in a document based on the [Pleo Design Doc template](Template-Design-Doc.md) or in the format of your choice. 
+In order to evaluate your solution, you can share a technical design that describes what assumptions were taken, what components are involved, how they communicate, and how you would you load test it. Internally Pleo uses the [Design Doc template](Template-Design-Doc.md),  but feel free to modify the template structure or use the format of your choice. 
 
-We recommend you to follow an iterative approach, and on each scaling phase, describe the steps taken to scale the system, how to load test it, what assumptions were taken, and a link or an image to a design tool that describes the solution. Each of these steps can be a new commit so we can see the design process.
+Bear in mind that there is no single solution to this challenge, and it could be improved indefinitely. From Pleo, we are conscious of your time and we don’t aim to have a complete answer but to know how you would reason if this was a real scenario. If you chose to adopt an iterative approach, please commit on each new advance on the challenge so we can evaluate the journey to the solution.
