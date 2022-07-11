@@ -11,7 +11,7 @@ As you can see there is only one instance of the “Finance Service” running, 
 
 ![architecture.svg](architecture.svg)
 
-([source](https://excalidraw.com/#json=YcUhmaK-Wvvf65YXUWmGQ,Sy_wMyZIZlFZjSf2ocImAQ))
+([source](https://excalidraw.com/#json=hNoE8Rov0shE51Qujzny6,DDf2ilNdnLg3dTJgjh68-A))
 
 ### Payment feed response example
 
