@@ -1,0 +1,13 @@
+version: 1
+service:
+  name: Performance challenge
+  description: Hiring challenge for Performance engineering positions
+  owner: quality
+  tags:
+    - key: type
+      value: hiring-challenge
+  language: Text
+  repositories:
+    - name: pleo-io/performance-challenge
+      path: "/"
+      provider: github
