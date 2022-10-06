@@ -4,20 +4,21 @@
 
 - **Metadata**
     
-    **Authors:** *<@names>*
+    **Authors:** *andrei.bulanov*
     
-    **Date:** *<@when>*
+    **Date:** *07.10.2022*
     
     **Terminology:**
     
-    - `<definition>` — *Description of definition.*
+    - `3rd party service` — *3rd Party Payment processor*
+    - `transactions service / transactions` — *payment feed*
 
 ## Background
 
 ### Context
 
 <aside>
-💡 Give the reader a broad overview of the landscape in which the proposed change is being built.
+💡 In this document there is a list of performance improvements that can be done to increase system performance for higher load. 
 
 </aside>
 
